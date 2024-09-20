@@ -1,0 +1,382 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.44px;
+    
+        width: 100%;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.44px;
+
+    width: 100%;
+    /* max-width: 1440px; */
+
+}
+
+.main-pic img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    
+    /* Change background color if needed */
+    z-index: 1;
+}
+
+nav {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    
+}
+
+nav img {
+    /* Adjust the size of the logo */
+    
+    cursor: pointer;
+    height: 45px;
+        /* Increase the height to adjust the size */
+        cursor: pointer;
+        margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px 10px;
+    margin-right: 32px;
+    color: #FFFFFF;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav ul li a:hover {
+    font-weight: 700;
+    border-bottom: 3px solid #FF7757;
+
+}
+.auth-buttons {
+    font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px 32px;
+    
+        background-color: transparent;
+        color: #FFFFFF;
+}
+
+.auth-buttons button {
+    font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px 32px;
+    border: none;
+        background-color: transparent;
+        color: #FFFFFF;
+}
+
+.auth-buttons button:hover {
+    background: #FF7757;
+        border-radius: 12px;
+}
+
+.auth-buttons a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    padding-left: 32px;
+    color: #FFFFFF;
+    transform: translateY(-50%);
+}
+
+.title__title {
+    padding: 0;
+}
+
+.title__h1 {
+    font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 84px;
+        line-height: 112px;
+    
+        margin-bottom: 16px;
+        text-align: left;
+        width: 75%;
+        color: #FFFFFF;
+}
+
+.title__text {
+    font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #FFFFFF;
+}
+
+.main__book {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1205px;
+        z-index: 3;
+    
+        position: absolute;
+        /* Ensure it stays above the image */
+        top: 95%;
+        left: 0;
+        right: 0;
+        /* Adjust the margin as needed */
+}
+
+.main__reserve {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 72px 100px 72px 32px;
+    background: #FFFFFF;
+    gap: 40px;
+}
+
+.reserve__title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    color: #767E86;
+}
+
+.reserve__input {
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #172432;
+    padding: 0px 0px 10px;
+
+    width: 195.75px;
+    height: 34px;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.main__booknow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    padding: 60px 20px;
+    gap: 12px;
+
+    background: #FF7757;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.book__text {
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.section {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+    padding: 140px 32px 100px;
+}
+
+.section__h3 {
+    margin-top: 2%;
+    font-size: 80px;
+    line-height: 85px;
+    padding-bottom: 1px;
+    
+    color: #172432;
+}
+
+.section__text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 10px;
+    color: #767E86;
+}
+
+.section__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.destinations__content {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    overflow: hidden;
+    scroll-behavior: smooth;
+
+    padding: 0 32px 140px 0;
+    margin-left: 32px;
+    gap: 35px;
+}
+
+.destinations__items {
+    position: relative;
+}
+
+.destinations__textblock {
+    position: absolute;
+    bottom: 40px;
+    left: 24px;
+    z-index: 1;
+}
+
+.destinations__city {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+
+    padding-bottom: 17px;
+    color: #FFFFFF;
+}
+
+.destinations__location {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    padding-left: 17px;
+    color: #FFFFFF;
+}
+
+.travel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px 140px;
+    gap: 32px;
+}
+
+.travel__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.travel__title {
+    width: 75%;
+    font-size: 60px;
+    line-height: 72px;
+
+    color: #172432;
+}
+
+.travel__text {
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 52px;
+
+    color: #172432;
+}
+
+.travel__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+
+    cursor: pointer;
+}
+.travel__read-more {
+    color: #FF7757;
+}
+
+#home-nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: transparent;
+    z-index: 2;
+}
+
+#explore #home-nav,
+#blog #home-nav,
+#travel #home-nav {
+    position: static;
+}
